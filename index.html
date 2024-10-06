@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+    await OneSignal.init({
+      appId: "cafb6887-caf5-4374-a22e-301de3d7189e",
+    });
+  });
+</script>
     <meta name="robots" content="index, follow">
     <meta name="description" content="Somos dedicados à conscientização e combate ao bullying, racismo e abuso. Oferecemos recursos, apoio e informações para promover a inclusão, a igualdade e o respeito, buscando construir uma sociedade mais justa e acolhedora para todos.">
     <meta name="keywords" content="combate ao bullying, combate ao racismo, prevenção ao abuso, apoio às vítimas, anti-discriminação, justiça social">
